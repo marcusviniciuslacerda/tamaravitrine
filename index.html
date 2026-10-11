@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitrine Digital | Flor de Tâmara</title>
+    <!-- Links corretos do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Vincula o arquivo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="barra-topo">✨ Coleção Exclusiva Flor de Tâmara ✨</div>
+
+    <header>
+        <div class="logo-icone">🍀</div>
+        <div class="logo-loja">Flor de <span>Tâmara</span></div>
+        <div class="status-loja">Disponível para Pedidos</div>
+    </header>
+
+    <div class="container">
+        <h2 class="titulo-secao">— Toque no look para pedir —</h2>
+        
+        <div class="grid-produtos">
+            
+            <!-- PRODUTO 1 -->
+            <div class="card-produto">
+                <div class="img-container">
+                    <span class="tag-novidade">New</span>
+                    <img src="" alt="Vestido" class="img-produto">
+                </div>
+                <div class="info-produto">
+                    <h3 class="nome-produto">Vestido Elegante Fluid</h3>
+                    <p class="preco-produto">R$ 189,90</p>
+                    <button class="btn-comprar" data-nome="Vestido Elegante Fluid">Quero esse Look</button>
+                </div>
+            </div>
+
+            <!-- PRODUTO 2 -->
+            <div class="card-produto">
+                <div class="img-container">
+                    <span class="tag-novidade">New</span>
+                    <img src="https://unsplash.com" alt="Blusa" class="img-produto">
+                </div>
+                <div class="info-produto">
+                    <h3 class="nome-produto">Blusa Alfaiataria Premium</h3>
+                    <p class="preco-produto">R$ 119,90</p>
+                    <button class="btn-comprar" data-nome="Blusa Alfaiataria Premium">Quero esse Look</button>
+                </div>
+            </div>
+
+            <!-- PRODUTO 3 -->
+            <div class="card-produto">
+                <div class="img-container">
+                    <img src="https://unsplash.com" alt="Calça" class="img-produto">
+                </div>
+                <div class="info-produto">
+                    <h3 class="nome-produto">Calça Pantalona Classic</h3>
+                    <p class="preco-produto">R$ 159,90</p>
+                    <button class="btn-comprar" data-nome="Calça Pantalona Classic">Quero esse Look</button>
+                </div>
+            </div>
+
+            <!-- PRODUTO 4 -->
+            <div class="card-produto">
+                <div class="img-container">
+                    <img src="https://unsplash.com" alt="Casaco" class="img-produto">
+                </div>
+                <div class="info-produto">
+                    <h3 class="nome-produto">Conjunto Blazer e Shorts</h3>
+                    <p class="preco-produto">R$ 249,90</p>
+                    <button class="btn-comprar" data-nome="Conjunto Blazer e Shorts">Quero esse Look</button>
+                </div>
+            </div>
+
+            <!-- PRODUTO 5 -->
+            <div class="card-produto">
+                <div class="img-container">
+                    <img src="https://unsplash.com" alt="Saia" class="img-produto">
+                </div>
+                <div class="info-produto">
+                    <h3 class="nome-produto">Saia Midi Pregueada</h3>
+                    <p class="preco-produto">R$ 134,90</p>
+                    <button class="btn-comprar" data-nome="Saia Midi Pregueada">Quero esse Look</button>
+                </div>
+            </div>
+
+            <!-- PRODUTO 6 -->
+            <div class="card-produto">
+                <div class="img-container">
+                    <img src="https://unsplash.com" alt="Macacão" class="img-produto">
+                </div>
+                <div class="info-produto">
+                    <h3 class="nome-produto">Macacão Linho Urban</h3>
+                    <p class="preco-produto">R$ 199,90</p>
+                    <button class="btn-comprar" data-nome="Macacão Linho Urban">Quero esse Look</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- MODAL DE ATENDIMENTO FLUTUANTE -->
+    <div class="modal-overlay" id="modalVendedoras">
+        <div class="modal-conteudo">
+            <h4>Escolha seu Atendimento</h4>
+            <p>Selecione uma de nossas vendedoras para finalizar seu pedido:</p>
+            
+            <!-- Usamos a tag <a> com o link oficial recomendado pelo WhatsApp -->
+            <a href="https://api.whatsapp.com/send/?phone=5589981281839&text&type=phone_number&app_absent=0&utm_source=ig" target="" class="btn-vendedora" id="linkVendedora1">💁‍♀️ Falar com Atendente 1</a>
+            <a href="https://api.whatsapp.com/send/?phone=5589999942181&text&type=phone_number&app_absent=0&utm_source=ig" target="_blank" class="btn-vendedora" id="linkVendedora2">💁‍♀️ Falar com Atendente 2</a>
+            
+            
+            <button class="btn-fechar-modal" id="btnFechar">Voltar para a vitrine</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 Flor de Tâmara. Todos os direitos reservados.</p>
+        <p style="margin-top: 6px; font-size: 9px; color: #444;">Layout construído por [Seu Nome]</p>
+    </footer>
+
+    <!-- Vincula o arquivo JavaScript externo -->
+    <script src="script.js"></script>
+</body>
+</html>
